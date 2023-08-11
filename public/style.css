@@ -1,0 +1,141 @@
+
+  main {
+    text-align: center;
+    padding: 1em;
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  #checkbox {
+    height: 80px;
+  }
+  #filterbox
+  {
+    height: 40px;
+    position: relative;
+   top: 13px;
+ 
+
+  }
+
+  .task-input {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    color: #ff3e00;
+    text-transform: uppercase;
+    font-size: 4em;
+    font-weight: 100;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 640px) {
+    main {
+      max-width: none;
+    }
+  }
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    width: 200px;
+    background: transparent;
+  }
+  span {
+    font-size: 1.5em;
+    font-weight: 100;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  *
+  {
+    
+  }
+
+  body {
+    background:#009B77;
+    background-size: cover;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 10px;
+  }
+
+  .todo-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+  }
+
+  .todo-app h1 {
+    color: 002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .todo-app h1 img {
+    width: 100px;
+    margin-left: 10px;
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ededed;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+  }
+
+  ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8x 12px 50px;
+    user-select: none;
+    cursor: pointer;
+  }
+
+  #checkedBox {
+    width: 20px;
+  }
+  .fa-trash {
+    color: red;
+  }
+
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dialog {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .fas fa-sync-alt {
+    color: aqua;
+  }
